@@ -1,0 +1,33 @@
+.cart__wrapper {
+    position: fixed;
+    top: 90px;
+    right: 50px;
+    border-radius: 12px;
+    background-color: white;
+    border: 1px solid rgb(240, 237, 237);
+    padding: 10px;
+    z-index: 10;
+    border: none;
+}
+
+.cart__innerWrapper {
+    height: max-content;
+    max-height: 50vh;
+    overflow-y: auto;
+   
+}
+
+.Cart__cartTotal {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-times-circle {
+    color: gray;
+    transition: transform 0.2s linear;
+}
+
+.fa-times-circle:hover {
+    transform: rotate(90deg);
+}
